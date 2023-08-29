@@ -1,0 +1,140 @@
+@media (max-width: 767px){
+    .logo img {
+        width: 50px;
+    }
+    .job-band {
+        display: block;
+        width: 100%;
+    }
+    main {
+        margin: 20px 0px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .Questions-heading {
+        padding: 15px;
+        display: flow-root;
+    }
+    .Questions-heading a.btn-primary {
+        padding: 0px 36px;
+        height: 45px;
+    }
+    .video-record-band {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .question-text {
+        margin-bottom: 12px;
+    }
+    .question-text h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .video-recording-web-cam {
+        height: auto;
+        margin: 15px;
+        width: -webkit-fill-available;
+    }
+    .video-record-band {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .remaining-time {
+        position: unset;
+        top: -127px;
+        padding: 5px 8px;
+        margin-bottom: 15px;
+    }
+    .start-recording {
+    flex-direction: column;
+    }
+    .start-recording {
+    width: 100%;
+    }
+    .remaining-time a {
+    font-size: 16px;
+    margin-right: 0px;
+    font-weight: 700;
+    }
+    .playing-video a.play {
+    height: 65px;
+    width: 65px;
+    }
+    .playing-video a.play img {
+    width: 24px;
+    }
+    span {
+    margin-top: 9px;
+    font-size: 19px;
+    }
+    .start-recording {
+    padding: 0px 15px 15px 15px;
+    }
+    .logo img {
+    width: 240px;
+    }
+    /*log-in*/
+    .section {
+    width: 80%;
+    margin: 20px auto;
+    }
+    .job-band video {
+    height: auto!important;
+    }
+    .job-band .heading h2 {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    }
+    .job-band .card-band-right {
+    padding: 20px 4px;
+    }
+    .form_band input.form-control {
+    height: 40px;
+    }
+    .form_band .form-label {
+    margin-bottom: 6px;
+    }
+    .form_band .btn-primary {
+    height: 45px;
+    font-size: 16px;
+    padding: 0px 40px;
+    }
+    .form_band .mb-3 {
+    margin-bottom: 12px!important;
+    }
+    .section {
+    width: 92%;
+    margin: 20px auto;
+    position: unset;
+    justify-content: center;
+    }
+    .loader img {
+    width: 110px;
+    }
+    .text-band span {
+    font-size: 48px;
+    font-weight: 700;
+    color: #a48f5694;
+    }
+    .text-band h2 {
+        font-size: 26px;
+        margin-bottom: 17px;
+        margin-top: 24px;
+    }
+    .modal-box {
+        padding: 15px;
+    }
+    .logo h2 {
+        font-size: 12px;
+    }
+    .img-band img {
+        width: 98px;
+        margin: 0 auto;
+        display: block;
+    }
+    span.swal2-x-mark span {margin-top: -20px;}
+}
+

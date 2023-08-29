@@ -1,0 +1,2 @@
+[16-Mar-2023 08:07:39 UTC] PHP Fatal error:  Cannot redeclare Purchase::edit() in /home/gqticwv5dgqz/dsdeveloper.world/padmavati_crm/application/controllers/admin/Purchase.php on line 161
+[16-Mar-2023 08:07:40 UTC] PHP Fatal error:  Cannot redeclare Purchase::edit() in /home/gqticwv5dgqz/dsdeveloper.world/padmavati_crm/application/controllers/admin/Purchase.php on line 161

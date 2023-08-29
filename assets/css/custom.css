@@ -1,0 +1,368 @@
+.error {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 87.5%;
+    color: #ff382b;
+}
+
+.form-pannel {
+    border: 1px solid #faebcc;
+}
+.pannel-heading {
+    padding: 9px;
+    background-color: #fcf8e3;
+    font-weight: 500;
+}
+.signup {
+    padding: 19px 20px 6px 36px;
+}
+
+#heading {
+    text-transform: uppercase;
+    color: #673AB7;
+    font-weight: normal
+}
+
+#welcome {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#welcome fieldset {
+    background: white;
+    border: 0 none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-card {
+    text-align: left
+}
+
+#welcome fieldset:not(:first-of-type) {
+    display: none
+}
+#welcome .action-button {
+    width: 100px;
+    background: #673AB7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+    float: right
+}
+
+#welcome .action-button:hover,
+#welcome .action-button:focus {
+    background-color: #311B92
+}
+
+#welcome .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right
+}
+
+#welcome .action-button-previous:hover,
+#welcome .action-button-previous:focus {
+    background-color: #000000
+}
+
+
+.fs-title {
+    font-size: 25px;
+    color: #673AB7;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    color: #673AB7;
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #673AB7
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 33.3%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #country:before {
+    font-family: FontAwesome;
+    content: "\f024"
+}
+
+#progressbar #stores:before {
+    font-family: FontAwesome;
+    content: "\f07a"
+}
+
+#progressbar #counters:before {
+    font-family: FontAwesome;
+    content: "\f01c"
+}
+
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #673AB7
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+.page-leftheader.text-center.welcome {
+    margin: 0 auto;
+    width: 45%;
+}
+h3.welcome-title {
+    font-size: 17px;
+    padding-top: 17px;
+    margin-bottom: 4px;
+}
+.modal-body.country-list {
+    height: 50vh;
+    min-height: 150px;
+    overflow: auto;
+}
+a.add-store {
+    position: absolute;
+    right: 15px;
+    top: 18px;
+    font-size: 24px;
+}
+.welcome-content{
+    margin: 0 auto;
+}
+.welcome-content fieldset {
+    padding: 15px;
+}
+.modal-content .select2-container {
+    width: 100% !important;
+}
+.select2-container--open{
+    z-index: 10001;
+}
+.countr-lists .flag {
+    height: 40px;
+    width: 50px;
+}
+input.select2-search__field {
+    padding-left: 10px !important;
+}
+
+.is-invalid .select2-selection{
+    border-color: #ff382b !important;
+}
+
+.form-img-preview {
+    padding: 7px;
+    height: 50px;
+    width: auto;
+}
+
+.action a {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container {
+    pointer-events: none;
+    touch-action: none;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection--single {
+    background-color: #f1f5fa;
+}
+
+.product-image img {
+    max-width: 30px;
+    max-height: 30px;
+}
+#lightbox .modal-dialog {
+    width: auto;
+}
+button.lightbox-close {
+    position: absolute;
+    right: 5px;
+    top: -1px;
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+    padding: 0;
+    cursor: pointer;
+}
+img.invoice-logo {
+    max-height: 90px;
+    max-width: 150px;
+}
+img.profile-image {
+    max-height: 100px;
+    max-width: 100px;
+    width: auto;
+}
+.card-header{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.icon-menu-img .side_menu_img {
+    filter: brightness(0) invert(1);
+}
+.quick-links img {
+    height: 30px;
+    filter: brightness(0) invert(1);
+    width: 30px;
+}
+.quick-links h3 {
+    color: #fff;
+}
+
+.quick-links small.text-muted {
+    color: #fff !important;
+}
+.bg-products {
+    background-color: #150570b8;
+}
+
+.bg-orders {
+    background-color: #6c757d;
+}
+.bg-customers {
+    background-color: #f58054e0;
+}
+.bg-users {
+    background-color: #0ca7ece0;
+}
+
+.bg-stores {
+    background-color: #36b37ee6;
+}
+
+.bg-counters {
+    background-color: #ffab00cf;
+}
+.box {
+    border: 1px solid #dbdee0;
+    margin-bottom: 15px;
+}
+.box .box-header {
+    background: white;
+    color: #34383c;
+    font-size: 16px;
+    background: #f7f7f8;
+    border-bottom: 1px solid #dbdee0;
+    height: 40px;
+}
+.box-header {
+    background: white;
+    color: #34383c;
+    font-size: 16px;
+    background: #f7f7f8;
+    border-bottom: 1px solid #dbdee0;
+    height: 40px;
+}
+
+.nav-tabs .nav-link {background-color: #e9ebec;}
+.nav-tabs>.nav-link, .nav-tabs>.nav-link:hover, .nav-tabs>.nav-link:focus {
+    color: #555 !important;
+    cursor: default !important;
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-bottom-color: transparent !important;
+}
+.nav-tabs li.active > a {
+    line-height: 1.428571429 !important;
+    margin: 0 -1px 0 0 !important;
+}
+.select2-container {
+    min-width: 150px;
+}
+.welcome-content .select2-container {
+    width: 100% !important;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background-color: #f6f6f6;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.alert-danger p.error {
+    color: #fff;
+    line-height: 0.4;
+    font-size: 13px;
+}
+.alert-success p.error {
+    background: #fff;
+}
+img.popup-image {
+	max-height: 60vh;
+}
